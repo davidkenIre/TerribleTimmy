@@ -12,6 +12,7 @@ public class CameraFollow : MonoBehaviour {
     void Start () {
         // Calculate the amout of offset the camera 
         distanceToTarget = transform.position.x - targetObject.transform.position.x;
+
     }
 	
 	// Update is called once per frame
