@@ -122,9 +122,12 @@ public class GeneratorScript : MonoBehaviour {
         float randomY = Random.Range(objectsMinY, objectsMaxY);
         obj.transform.position = new Vector3(objectPositionX, randomY, 0);
 
-        //4
-        float rotation = Random.Range(objectsMinRotation, objectsMaxRotation);
-        obj.transform.rotation = Quaternion.Euler(Vector3.forward * rotation);
+        // Add a rotation rae to placed objects - only applies to lasers
+        if (!obj.gameObject.CompareTag("CoinsGroup1")) {
+            Debug.Log(obj.gameObject.tag);
+            float rotation = Random.Range(objectsMinRotation, objectsMaxRotation);
+            obj.transform.rotation = Quaternion.Euler(Vector3.forward * rotation);
+        } 
 
         //5
         objects.Add(obj);
