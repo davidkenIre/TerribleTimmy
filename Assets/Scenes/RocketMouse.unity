@@ -409,9 +409,9 @@ MonoBehaviour:
   - {fileID: 1592525204617440, guid: 11fa332e090d0fb4481efbf639ba897a, type: 2}
   objects: []
   objectsMinDistance: 5
-  objectsMaxDistance: 20
-  objectsMinY: 0
-  objectsMaxY: 0
+  objectsMaxDistance: 10
+  objectsMinY: -1.8
+  objectsMaxY: 1.8
   objectsMinRotation: -45
   objectsMaxRotation: 45
 --- !u!95 &888215944
