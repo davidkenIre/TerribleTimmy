@@ -60,7 +60,6 @@
     <Compile Include="Assets\Scripts\MouseController.cs" />
     <Compile Include="Assets\Scripts\ParallaxScroll.cs" />
     <Compile Include="Assets\Scripts\ParticleSortingLayerFix.cs" />
-    <Compile Include="dken.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Data/GitHub/TerribleTimmy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
